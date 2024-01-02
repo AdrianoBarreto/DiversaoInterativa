@@ -9,7 +9,6 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
-   
 }
 
 header h1 {
@@ -70,4 +69,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Adicionando uma media query para estilos em dispositivos móveis */
+@media screen and (max-width: 600px) {
+    #games {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game {
+        width: 80%;
+    }
 }
