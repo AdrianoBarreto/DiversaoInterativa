@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+   
+}
+
+header h1 {
+    margin: 0; /* Remover a margem superior padrão */
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    background-image: url('../img/perfil.png'); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#games {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.game {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+    width: 300px;
+    margin: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.3em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
