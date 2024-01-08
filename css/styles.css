@@ -9,7 +9,6 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
-   
 }
 
 header h1 {
@@ -36,7 +35,8 @@ header h1 {
 
 #games {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 2em;
 }
 
@@ -70,4 +70,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .game {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
