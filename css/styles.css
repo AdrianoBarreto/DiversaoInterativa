@@ -13,7 +13,7 @@ header {
 }
 
 header h1 {
-    margin: 0; /* Remover a margem superior padrão */
+    margin: 0; /* Para ajustar a margem superior*/
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ header h1 {
     height: 80px;
     background-color: #4CAF50;
     border-radius: 50%;
-    background-image: url('../img/perfil.png'); /* Substitua pelo caminho real da sua imagem */
+    background-image: url('../img/perfil.png'); /* Caminho da imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
