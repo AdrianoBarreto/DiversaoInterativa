@@ -66,7 +66,7 @@ function createCard(card) {
                 openedCards = [];
 
                 if (matchedCards.length === cards.length) {
-                    alert(`Parab�ns! Voc� ganhou em ${moves} movimentos.`);
+                    alert(`Parabéns! Você ganhou em ${moves} movimentos.`);
                     document.querySelectorAll('.card').forEach(card => {
                         card.classList.remove('open', 'matched');
                         card.style.backgroundColor = '';
