@@ -81,6 +81,6 @@ footer {
 
 @media only screen and (max-width: 767px) {
   .game:last-child {
-    margin-bottom: 20px; /* Adicione a margem desejada */
+    margin-bottom: 40px; /* Adicione a margem desejada */
   }
 }
