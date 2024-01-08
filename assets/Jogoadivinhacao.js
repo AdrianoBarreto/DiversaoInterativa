@@ -1,7 +1,7 @@
 const secretNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 const maxAttempts = 10;
-let gameActive = true; // Adicionado para controlar o estado do jogo
+let gameActive = true; // Controlar o estado do jogo
 
 function checkGuess() {
     if (!gameActive) {
@@ -42,5 +42,5 @@ function checkGuess() {
 
 function endGame() {
     gameActive = false;
-    // Restante do código, se houver
+   
 }
