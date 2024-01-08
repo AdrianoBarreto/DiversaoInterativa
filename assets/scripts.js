@@ -1,9 +1,9 @@
-function playTicTacToe() {
+function openJogodavelha() {
     // Abrir o Jogo da Velha em uma nova janela e justa a nova janela
     window.open('Jogodavelha.html', 'Jogo da Velha', 'width=500,height=500');
 }
 
-function openGuessingGame() {
+function openJogodaadivinhacao() {
     // Abre uma nova janela para o Jogo de Adivinhação e justa a nova janela
     const gameWindow = window.open("Jogoadivinhacao.html", "_blank", "width=400,height=400");
 }
