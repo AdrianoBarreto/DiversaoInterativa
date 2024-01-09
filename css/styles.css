@@ -75,12 +75,12 @@ footer {
 @media (max-width: 768px) {
     .game {
         width: 100%;
-        margin: 10px 0;
+        margin: 10px 0; /* Proporção para celular */
     }
 }
 
 @media only screen and (max-width: 767px) {
   .game:last-child {
-    margin-bottom: 40px; /* Adicione a margem desejada */
+    margin-bottom: 40px; /* Ajusta a tela para celular */
   }
 }
