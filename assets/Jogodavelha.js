@@ -1,4 +1,4 @@
-let currentPlayer = 'Barreto';
+let currentPlayer = 'O';
 let board = ['', '', '', '', '', '', '', '', ''];
 let gameActive = true;
 
@@ -15,7 +15,7 @@ function handleClick(index) {
             document.getElementById('status').textContent = 'Empate!';
             endGame();
         } else {
-            currentPlayer = currentPlayer === 'Barreto' ? 'Adriano' : 'Barreto';
+            currentPlayer = currentPlayer === 'O' ? 'X' : 'O';
             document.getElementById('status').textContent = `Jogador atual: ${currentPlayer}`;
         }
     }
@@ -61,7 +61,7 @@ function highlightWinner() {
 }
 
 function restartGame() {
-    currentPlayer = 'Barreto';
+    currentPlayer = 'O';
     board = ['', '', '', '', '', '', '', '', ''];
     gameActive = true;
 
