@@ -16,8 +16,8 @@ h1 {
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
     background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -26,7 +26,7 @@ h1 {
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    user-select: none; /* Evitar seleção de texto */
+    user-select: none; 
     overflow: hidden;
     position: relative;
 }

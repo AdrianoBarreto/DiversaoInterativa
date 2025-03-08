@@ -27,7 +27,7 @@ header h1 {
     height: 80px;
     background-color: #4CAF50;
     border-radius: 50%;
-    background-image: url('../img/perfil.png'); /* Caminho da imagem */
+    background-image: url('../img/perfil.jpg'); /* Caminho da imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,12 +75,12 @@ footer {
 @media (max-width: 768px) {
     .game {
         width: 100%;
-        margin: 10px 0; /* Proporção para celular */
+        margin: 10px 0;
     }
 }
 
 @media only screen and (max-width: 767px) {
   .game:last-child {
-    margin-bottom: 40px; /* Ajusta a tela para celular */
+    margin-bottom: 40px; /* Adicione a margem desejada */
   }
 }
